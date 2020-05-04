@@ -1,4 +1,4 @@
-name: 'Deploy Vuepress to GitHub Pages'
+name: 'Deploy Vuepress to GitHub Pages with CNAME'
 description: 'This action will handle the building and deploying process Vuepress to GitHub Pages. This a derivative of the action from TestTheDocs but it supports CNAMES'
 author: 'rreichel3'
 runs:
