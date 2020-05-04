@@ -27,7 +27,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: testthedocs/github-pages-deploy-action@master
+      uses: rreichel3/vuepress-github-actions-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_DIR: test/build/ # The folder, the action should deploy.
