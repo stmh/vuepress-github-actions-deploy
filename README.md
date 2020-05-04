@@ -32,6 +32,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_DIR: test/build/ # The folder, the action should deploy.
         BUILD_SCRIPT: npm install && npm run-script build # The build script the action should run prior to deploying.
+        PAGES_CNAME: rj3.me
 ```
 
 If you'd like to make it so the workflow only triggers on push events to specific branches then you can modify the `on` section.
@@ -67,7 +68,6 @@ The Docker container which powers the action runs Node which means `npm` command
 `BUILD_DIR`: The folder, the action should deploy.
 
 With the action correctly configured you should see the workflow trigger the deployment under the configured conditions.
-
 
 `PAGES_CNAME`: The CNAME to use for pages (Optional)
 
