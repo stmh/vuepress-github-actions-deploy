@@ -1,5 +1,5 @@
 name: 'Deploy Vuepress to GitHub Pages with CNAME'
-description: 'This action will handle the building and deploying process Vuepress to GitHub Pages.
+description: 'This action will handle the building and deploying process Vuepress to GitHub Pages.'
 author: 'rreichel3'
 runs:
   using: 'docker'
